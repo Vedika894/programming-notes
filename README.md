@@ -8,6 +8,9 @@ declaring an array refers to creating a reference to an array without specifying
 
 `double[] nums;  // This is a declaration. It does not create or initialize the array yet`
 
+
+
+
 Initializing an Array
 Initialization happens when you allocate memory for the array and optionally set its values.
 
@@ -26,12 +29,15 @@ You can declare the array first and then allocate memory and assign values later
 
 Example:
 
-`double[] nums;        // Declaration
+> double[] nums;        // Declaration
 nums = new double[4]; // Initialization with a size of 4
 nums[0] = 1.1;        // Assigning values
 nums[1] = 2.2;
 nums[2] = 3.3;
 nums[3] = 4.4;
-`
+>
 Here, the array nums is first declared, and then a new array of size 4 is created (initialized), followed by assigning specific values to each index of the array.
+so, in this , first: declare, initialize the array with default values    then assign specific values, *don't initalize specific values directly*
+
+
 
